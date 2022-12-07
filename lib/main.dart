@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mobx_example/mobx/counter/counter_mobx.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+
+import 'getx/getx_state_management_example.dart';
 // import 'package:mobx_example/mobx/movie_app/home_page.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home:  GetApp(),
     );
   }
 }
